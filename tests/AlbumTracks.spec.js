@@ -7,26 +7,26 @@ import convertToHumamTime from '../src/ConvertToHumanTime';
 describe('AlbumTracks', () => {
   const data = [
     {
-      "preview_url": "https://p.scdn.co/mp3-preview/ab3d501c5ffbf560e94094f76cd36d874a26e941?cid=8897482848704f2a8f8d7c79726a70d4",
-      "track_number": 1,
-      "name": "Around The World",
-      "duration_ms": 238733
-    }
+      preview_url: 'https://p.scdn.co/mp3-preview/ab3d501c5ffbf560e94094f76cd36d874a26e941?cid=8897482848704f2a8f8d7c79726a70d4',
+      track_number: 1,
+      name: 'Around The World',
+      duration_ms: 238733,
+    },
   ];
 
   const data2 = [
     {
-      "preview_url": "https://p.scdn.co/mp3-preview/ab3d501c5ffbf560e94094f76cd36d874a26e941?cid=8897482848704f2a8f8d7c79726a70d4",
-      "track_number": 1,
-      "name": "Around The World",
-      "duration_ms": 238733
+      preview_url: 'https://p.scdn.co/mp3-preview/ab3d501c5ffbf560e94094f76cd36d874a26e941?cid=8897482848704f2a8f8d7c79726a70d4',
+      track_number: 1,
+      name: 'Around The World',
+      duration_ms: 238733,
     },
     {
-      "preview_url": "https://p.scdn.co/mp3-preview/ab3d501c5ffbf560e94094f76cd36d874a26e941?cid=8897482848704f2a8f8d7c79726a70d4",
-      "track_number": 1,
-      "name": "Around The World",
-      "duration_ms": 238733
-    }
+      preview_url: 'https://p.scdn.co/mp3-preview/ab3d501c5ffbf560e94094f76cd36d874a26e941?cid=8897482848704f2a8f8d7c79726a70d4',
+      track_number: 1,
+      name: 'Around The World',
+      duration_ms: 238733,
+    },
   ];
 
   const markup = `
